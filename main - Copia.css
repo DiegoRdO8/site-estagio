@@ -1,0 +1,194 @@
+main.css
+
+*{
+    background-color: blue;
+}
+h1{
+    color: brown;
+    text-align: center;
+}
+h2{
+    font-family: papyrus;
+}
+
+.int{
+        background-image: url('https://img.freepik.com/free-vector/cute-animal-pattern-background-wallpaper-paw-print-vector-illustration_53876-146422.jpg?size=626&ext=jpg&ga=GA1.1.2116175301.1717718400&semt=ais_user');
+    }
+
+footer{
+    margin-top: 20px;
+}
+.sum a{
+    color: #000000;
+}
+figcaption{
+    background-color: gray;
+    backface-visibility: 0.5;
+    text-align: center;
+}
+.vidcao{
+    text-align: center;
+}
+img{
+    border: 3px solid black;
+
+}
+video{
+    border: 3px solid black;
+    
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: 5px;
+}
+#adocao{
+    border: 3px solid black;
+    background-image: url(https://mrwallpaper.com/images/high/a-white-dog-pattern-with-white-dogs-on-a-green-background-ql4llavj9crgw4lw.jpg)
+    
+}
+.nav a:hover{
+    background: white;
+    border: 1px solid red;
+    color: red;
+}
+.container {
+    max-width: 450px;
+    margin: 0 auto; }
+
+ h4 {
+        text-transform: uppercase; }
+
+ .foto-card-buldogue {
+            margin: 1em 0; }
+
+        .foto-card-buldogue .conbuldogue{
+            background-size: 28em 15em;
+            background-position: center;
+            height: 14em;
+            transition: 0.2s; }
+                      
+.foto-card-buldogue .conbuldogue {
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/English_Bulldog_-Dog-220489-1280.jpg/220px-English_Bulldog_-Dog-220489-1280.jpg"); 
+        }
+
+        .foto-card-buldogue .detalhecao {
+            margin-top: -5px;
+            background-color: #EFEFEF;
+            display: flex;
+            justify-content: space-between; }
+            .foto-card .detalhecao h4,
+            .foto-card .detalhecao p {
+              padding: 0.7em 1.25em; }
+              .foto-card .detalhecao div {
+              display: flex; }
+
+.foto-card-buldogue .detalhecao .botaodetalhes {
+     background-color: #535353;
+     padding: 0.75em 1.25em;
+     cursor: pointer;
+     width: 1em;
+     
+    }
+
+.foto-card-buldogue .detalhecao .botaodetalhes img {
+    position: relative;
+    left: 0.1em;
+ }
+
+.foto-card-buldogue .detalhecao {
+    display: none;
+    background-color: #535353;
+    color: #EFEFEF; 
+}
+
+.foto-card-buldogue .detalhecao .active {
+    background-color: #C3FF00;
+    color: #303030; 
+}
+
+
+    
+    .botaodetalhes {
+        text-transform: uppercase;
+        padding: 2px 170px;
+        user-select: none;
+        cursor: pointer;
+    }
+
+
+    .foto-card-lhasa {
+        margin: 1em 0; }
+
+    .foto-card-lhasa .conlhasa {
+        background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Lhasa_Apso_%281%29.jpg/200px-Lhasa_Apso_%281%29.jpg"); 
+    }
+
+    .foto-card-lhasa .detalhecao {
+        margin-top: -5px;
+        background-color: #EFEFEF;
+        display: flex;
+        justify-content: space-between; }
+        .foto-card .detalhecao h4,
+        .foto-card .detalhecao p {
+          padding: 0.7em 1.25em; }
+          .foto-card .detalhecao div {
+          display: flex; }
+
+.foto-card-lhasa .detalhecao .botaodetalhes {
+ background-color: #535353;
+ padding: 0.75em 1.25em;
+ cursor: pointer;
+ width: 1em;
+ 
+}
+
+.foto-card-lhasa .detalhecao .botaodetalhes img {
+position: relative;
+left: 0.1em;
+}
+
+.foto-card-lhasa .detalhecao {
+display: none;
+background-color: #535353;
+color: #EFEFEF; 
+}
+
+.foto-card-lhasa .detalhecao .active {
+background-color: #C3FF00;
+color: #303030; 
+}
+
+.botaodetalhes{
+    background-color: #535353;
+    border: 3px solid black;
+}
+
+.carrousel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+    align-content: center;
+}
+
+.containerca{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    max-width: 100px;
+    margin: 100 auto;
+    align-content: center;
+
+}
+
+#imgca img{
+    object-fit: cover;
+    height: 500px;
+    width: 1500px;
+    align-content: center;
+}
+
+ .comeco p{
+    text-align: center;
+}
