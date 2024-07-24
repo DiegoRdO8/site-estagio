@@ -18,7 +18,7 @@ var btnenviar = document.querySelector('#btn_enviar');
     var raca = formulario.raca.value;
     var extra = formulario.extra.value;
 
-    console.log('Seu nome: '+nome);
+    console.log('Seu nome : '+nome);
     console.log('Quantos na casa : '+quantos);
     console.log('Faixa de idade do pet : '+idadeCao);
     console.log('Faixa de idade do pet : '+ident);
